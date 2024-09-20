@@ -13,10 +13,10 @@ const corsOptions = {
     origin: ['https://coders-boutique-front.vercel.app'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
-  };
-  
-  app.use(cors(corsOptions));
-app.use('/api',routes)
+};
+
+app.use(cors(corsOptions));
+app.use('/api', routes)
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
     console.log('server running on port ', port);
