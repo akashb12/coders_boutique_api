@@ -1,0 +1,1 @@
+POSTGRES_URL="postgres://default:c67yHErIMlJe@ep-cold-dawn-a4ctcrmd-pooler.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require"
